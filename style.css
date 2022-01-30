@@ -10,7 +10,7 @@
 }
 
 html, body {
-    background-image: url(/images/bg-desktop.svg);
+    background-image: url(./images/bg-desktop.svg);
     background-color: var(--Violet);
     font-family: 'Open Sans', sans-serif;
     font-size: 1.125rem;
@@ -23,9 +23,6 @@ html, body {
     align-items: center;
     padding: 3rem;
 }
-/* .illustration {
-    position: relative;
-} */
 
 .illustration__logo {
     position: relative;
@@ -58,7 +55,6 @@ html, body {
     transform: translateY(150px);
     color: white;
     gap: 1rem;
-
 }
 
 i {
@@ -75,19 +71,6 @@ i:hover {
     color: var(--Soft-Magenta);
     cursor: pointer;
 }
-
-/* .facebook-logo {
-    position: absolute;
-    left: 1209px;
-    top: 720px;
-    fill: var(--Soft-Magenta);
-}
-
-.facebook-logo:hover {
-    cursor: pointer;
-    color: white;
-    fill: var(--Soft-Magenta);
-} */
 
 .intro__register {
     min-width: 37%;
