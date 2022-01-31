@@ -72,8 +72,9 @@ i:hover {
     cursor: pointer;
 }
 
-.intro__register {
-    min-width: 37%;
+.intro__button-link {
+    display: flex;
+    max-width: 37%;
     min-height: 3.111rem;
     border-radius: 2rem;
     border: none;
@@ -81,9 +82,13 @@ i:hover {
     margin-top: 1rem;
     color: var(--Violet);
     font-size: 1rem;
+    background-color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
 }
 
-.intro__register:hover {
+.intro__button-linkr:hover {
     background-color: var(--Soft-Magenta);
     cursor: pointer;
     color: white;
